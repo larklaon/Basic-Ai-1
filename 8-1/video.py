@@ -73,6 +73,7 @@ def video_player_with_controls(video_path):
             else:
                 print('녹화 중이 아닙니다')
 
+    # 자동 저장하는 코드
     if video_writer is not None:
         video_writer.release()
     cap.release()
